@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="scpp">
+		<class>com.tfg.scpp.entity.Mensaje</class>
+		<class>com.tfg.scpp.entity.Tarea</class>
+		<class>com.tfg.scpp.entity.Usuario</class>
+		<class>com.tfg.scpp.entity.Cita</class>
+		<class>com.tfg.scpp.entity.Asignatura</class>
+		<class>com.tfg.scpp.entity.Curso</class>
+		<class>com.tfg.scpp.entity.Grupo</class>
+		<class>com.tfg.scpp.entity.Administrador</class>
+		<class>com.tfg.scpp.entity.Alumno</class>
+		<class>com.tfg.scpp.entity.Profesor</class>
+<!-- 		<class>com.tfg.scpp.entity.UsuarioRol</class>
+		<class>com.tfg.scpp.entity.UsuarioRolPK</class> -->
+	</persistence-unit>
+</persistence>
